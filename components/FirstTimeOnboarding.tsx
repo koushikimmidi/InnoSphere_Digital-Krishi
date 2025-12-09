@@ -1002,7 +1002,7 @@ const FirstTimeOnboarding: React.FC<FirstTimeOnboardingProps> = ({ user, onCompl
                 </div>
             </div>
 
-            {/* 2. Farm Details Section */}
+         
             <div className={`bg-white dark:bg-stone-800 p-5 rounded-2xl border shadow-sm transition-all duration-300 ${['farmSize', 'soilType', 'irrigation'].includes(activeField || '') ? 'ring-2 ring-green-500 border-green-500 shadow-lg scale-[1.01]' : 'border-stone-200 dark:border-stone-700 ring-1 ring-stone-100/50 dark:ring-stone-700/50'}`}>
                 <h3 className="text-base md:text-lg font-bold text-stone-800 dark:text-stone-100 mb-4 flex items-center gap-3">
                     <span className="w-7 h-7 rounded-full bg-green-100 dark:bg-green-900/30 text-green-700 dark:text-green-400 flex items-center justify-center text-sm font-bold border border-green-200 dark:border-green-800 shadow-sm">2</span>
